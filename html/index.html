@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charsets="utf-8">
+	<title>Eridanus</title>
+	<meta name="description" content="Eridanus">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="cookie.js"></script> 
+<script src="script.js"></script> 
+</head>
+
+
+<body>
+	<!....Navbar...>
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="the-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				
+			</div>
+			<div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="graphs.html">Graphs</a></li>
+				<li><a href="profile.html">Cookies</a></li>
+				<li><a href="help.html">Help</a></li>
+				
+			</ul>
+			</div>
+			</div>		
+	
+	</nav>
+	
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h3>Eridanus : Web Crawler Service</h1>
+			<img src="web-crawler-300x255.gif" alt="Mountain View" style="width:304px;height:228px;">
+			
+				
+	
+	</div>
+	</div>
+	
+	
+	<p style="text-align:center">
+	Welcome to Eridanus</p>
+	<p style="text-align:center">
+	We are dedicated to providing quality web crawling services. <br>
+	We offer two types of crawling: depth-first and breadth-first. <br>
+	The results will be provided to you in graphical form which you will be able to view<br>
+	and manipulate. We also offer the opportunity to store past pages, <br>
+	and search web pages by keywords. Make your choices below, <br>
+	or select 'Help' for more information.
+	</p>
+	
+	
+	<fieldset>
+	<span style="margin-left: 400px"><small> Starting Website </small></span>
+	<span style="float:right; margin-right: 400px" name="keyword"><small>Type Your Keyword</small></span>
+	<br><input style="margin-left: 400px" type="text" name="startingURL" id="startingURL"></span>
+	<input style="float:right;margin-right: 375px"type="text" name="search" placeholder="Search.."><br><br>
+	
+          <input style="margin-left: 400px" type="radio" class="searchValue" name="searchType" value="DFS" id="dfs" checked="checked">
+          <label for="dfs" class="inputtext">Depth First</label><br>
+          <input style="margin-left: 400px" type="radio" class="searchValue" name="searchType" value="BFS" id="bfs">
+          <label for="bfs" class="inputtext">Breadth First</label><br>
+           <button style="margin-left: 400px" type="button" class="submitButton" id="submitButton">Submit</button>
+	   <div id="crawlstatus" class="text-center"></div>
+	</fieldset>
+	
+	<p></p>
+	<br></br>
+	<br></br>
+	<br></br>
+	<footer>
+	<p><span style="margin-left: 400px; "><small>Provided By:
+	Holly Buteau,
+	Tyler Cope, and 
+	Raj Rikhy</small>
+	</p>
+	</span>
+	</footer>
+	
+	
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
